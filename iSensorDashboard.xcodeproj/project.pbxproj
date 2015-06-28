@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5382A49A1B40B2DD00C07EA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5382A4991B40B2DD00C07EA9 /* AppDelegate.swift */; };
+		5382A49C1B40B2DD00C07EA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5382A49B1B40B2DD00C07EA9 /* ViewController.swift */; };
+		5382A49F1B40B2DD00C07EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5382A49D1B40B2DD00C07EA9 /* Main.storyboard */; };
+		5382A4A11B40B2DD00C07EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5382A4A01B40B2DD00C07EA9 /* Assets.xcassets */; };
+		5382A4A41B40B2DD00C07EA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5382A4A21B40B2DD00C07EA9 /* LaunchScreen.storyboard */; };
+		5382A4A91B40B2DD00C07EA9 /* iSensorDashboard WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5382A4A81B40B2DD00C07EA9 /* iSensorDashboard WatchKit App.app */; };
+		5382A4AF1B40B2DD00C07EA9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5382A4AD1B40B2DD00C07EA9 /* Interface.storyboard */; };
+		5382A4B11B40B2DD00C07EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5382A4B01B40B2DD00C07EA9 /* Assets.xcassets */; };
+		5382A4B81B40B2DD00C07EA9 /* iSensorDashboard WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5382A4B71B40B2DD00C07EA9 /* iSensorDashboard WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5382A4BD1B40B2DD00C07EA9 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5382A4BC1B40B2DD00C07EA9 /* InterfaceController.swift */; };
+		5382A4BF1B40B2DD00C07EA9 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5382A4BE1B40B2DD00C07EA9 /* ExtensionDelegate.swift */; };
+		5382A4C11B40B2DD00C07EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5382A4C01B40B2DD00C07EA9 /* Assets.xcassets */; };
+		5382A4D11B40B84900C07EA9 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5382A4D01B40B84900C07EA9 /* HealthKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5382A4AA1B40B2DD00C07EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5382A48E1B40B2DD00C07EA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5382A4A71B40B2DD00C07EA9;
+			remoteInfo = "iSensorDashboard WatchKit App";
+		};
+		5382A4B91B40B2DD00C07EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5382A48E1B40B2DD00C07EA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5382A4B61B40B2DD00C07EA9;
+			remoteInfo = "iSensorDashboard WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5382A4C81B40B2DD00C07EA9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5382A4B81B40B2DD00C07EA9 /* iSensorDashboard WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5382A4CC1B40B2DD00C07EA9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5382A4A91B40B2DD00C07EA9 /* iSensorDashboard WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5382A4961B40B2DD00C07EA9 /* iSensorDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSensorDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5382A4991B40B2DD00C07EA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5382A49B1B40B2DD00C07EA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5382A49E1B40B2DD00C07EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5382A4A01B40B2DD00C07EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5382A4A31B40B2DD00C07EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5382A4A51B40B2DD00C07EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5382A4A81B40B2DD00C07EA9 /* iSensorDashboard WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iSensorDashboard WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5382A4AE1B40B2DD00C07EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5382A4B01B40B2DD00C07EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5382A4B21B40B2DD00C07EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5382A4B71B40B2DD00C07EA9 /* iSensorDashboard WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iSensorDashboard WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5382A4BC1B40B2DD00C07EA9 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5382A4BE1B40B2DD00C07EA9 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		5382A4C01B40B2DD00C07EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5382A4C21B40B2DD00C07EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5382A4D01B40B84900C07EA9 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5382A4931B40B2DD00C07EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5382A4D11B40B84900C07EA9 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5382A4B41B40B2DD00C07EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5382A48D1B40B2DD00C07EA9 = {
+			isa = PBXGroup;
+			children = (
+				5382A4D01B40B84900C07EA9 /* HealthKit.framework */,
+				5382A4981B40B2DD00C07EA9 /* iSensorDashboard */,
+				5382A4AC1B40B2DD00C07EA9 /* iSensorDashboard WatchKit App */,
+				5382A4BB1B40B2DD00C07EA9 /* iSensorDashboard WatchKit Extension */,
+				5382A4971B40B2DD00C07EA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5382A4971B40B2DD00C07EA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5382A4961B40B2DD00C07EA9 /* iSensorDashboard.app */,
+				5382A4A81B40B2DD00C07EA9 /* iSensorDashboard WatchKit App.app */,
+				5382A4B71B40B2DD00C07EA9 /* iSensorDashboard WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5382A4981B40B2DD00C07EA9 /* iSensorDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				5382A4991B40B2DD00C07EA9 /* AppDelegate.swift */,
+				5382A49B1B40B2DD00C07EA9 /* ViewController.swift */,
+				5382A49D1B40B2DD00C07EA9 /* Main.storyboard */,
+				5382A4A01B40B2DD00C07EA9 /* Assets.xcassets */,
+				5382A4A21B40B2DD00C07EA9 /* LaunchScreen.storyboard */,
+				5382A4A51B40B2DD00C07EA9 /* Info.plist */,
+			);
+			path = iSensorDashboard;
+			sourceTree = "<group>";
+		};
+		5382A4AC1B40B2DD00C07EA9 /* iSensorDashboard WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5382A4AD1B40B2DD00C07EA9 /* Interface.storyboard */,
+				5382A4B01B40B2DD00C07EA9 /* Assets.xcassets */,
+				5382A4B21B40B2DD00C07EA9 /* Info.plist */,
+			);
+			path = "iSensorDashboard WatchKit App";
+			sourceTree = "<group>";
+		};
+		5382A4BB1B40B2DD00C07EA9 /* iSensorDashboard WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5382A4BC1B40B2DD00C07EA9 /* InterfaceController.swift */,
+				5382A4BE1B40B2DD00C07EA9 /* ExtensionDelegate.swift */,
+				5382A4C01B40B2DD00C07EA9 /* Assets.xcassets */,
+				5382A4C21B40B2DD00C07EA9 /* Info.plist */,
+			);
+			path = "iSensorDashboard WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5382A4951B40B2DD00C07EA9 /* iSensorDashboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5382A4CD1B40B2DD00C07EA9 /* Build configuration list for PBXNativeTarget "iSensorDashboard" */;
+			buildPhases = (
+				5382A4921B40B2DD00C07EA9 /* Sources */,
+				5382A4931B40B2DD00C07EA9 /* Frameworks */,
+				5382A4941B40B2DD00C07EA9 /* Resources */,
+				5382A4CC1B40B2DD00C07EA9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5382A4AB1B40B2DD00C07EA9 /* PBXTargetDependency */,
+			);
+			name = iSensorDashboard;
+			productName = iSensorDashboard;
+			productReference = 5382A4961B40B2DD00C07EA9 /* iSensorDashboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5382A4A71B40B2DD00C07EA9 /* iSensorDashboard WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5382A4C91B40B2DD00C07EA9 /* Build configuration list for PBXNativeTarget "iSensorDashboard WatchKit App" */;
+			buildPhases = (
+				5382A4A61B40B2DD00C07EA9 /* Resources */,
+				5382A4C81B40B2DD00C07EA9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5382A4BA1B40B2DD00C07EA9 /* PBXTargetDependency */,
+			);
+			name = "iSensorDashboard WatchKit App";
+			productName = "iSensorDashboard WatchKit App";
+			productReference = 5382A4A81B40B2DD00C07EA9 /* iSensorDashboard WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		5382A4B61B40B2DD00C07EA9 /* iSensorDashboard WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5382A4C51B40B2DD00C07EA9 /* Build configuration list for PBXNativeTarget "iSensorDashboard WatchKit Extension" */;
+			buildPhases = (
+				5382A4B31B40B2DD00C07EA9 /* Sources */,
+				5382A4B41B40B2DD00C07EA9 /* Frameworks */,
+				5382A4B51B40B2DD00C07EA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iSensorDashboard WatchKit Extension";
+			productName = "iSensorDashboard WatchKit Extension";
+			productReference = 5382A4B71B40B2DD00C07EA9 /* iSensorDashboard WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5382A48E1B40B2DD00C07EA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "UCLA NESL";
+				TargetAttributes = {
+					5382A4951B40B2DD00C07EA9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					5382A4A71B40B2DD00C07EA9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					5382A4B61B40B2DD00C07EA9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 5382A4911B40B2DD00C07EA9 /* Build configuration list for PBXProject "iSensorDashboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5382A48D1B40B2DD00C07EA9;
+			productRefGroup = 5382A4971B40B2DD00C07EA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5382A4951B40B2DD00C07EA9 /* iSensorDashboard */,
+				5382A4A71B40B2DD00C07EA9 /* iSensorDashboard WatchKit App */,
+				5382A4B61B40B2DD00C07EA9 /* iSensorDashboard WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5382A4941B40B2DD00C07EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5382A4A41B40B2DD00C07EA9 /* LaunchScreen.storyboard in Resources */,
+				5382A4A11B40B2DD00C07EA9 /* Assets.xcassets in Resources */,
+				5382A49F1B40B2DD00C07EA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5382A4A61B40B2DD00C07EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5382A4B11B40B2DD00C07EA9 /* Assets.xcassets in Resources */,
+				5382A4AF1B40B2DD00C07EA9 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5382A4B51B40B2DD00C07EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5382A4C11B40B2DD00C07EA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5382A4921B40B2DD00C07EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5382A49C1B40B2DD00C07EA9 /* ViewController.swift in Sources */,
+				5382A49A1B40B2DD00C07EA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5382A4B31B40B2DD00C07EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5382A4BF1B40B2DD00C07EA9 /* ExtensionDelegate.swift in Sources */,
+				5382A4BD1B40B2DD00C07EA9 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5382A4AB1B40B2DD00C07EA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5382A4A71B40B2DD00C07EA9 /* iSensorDashboard WatchKit App */;
+			targetProxy = 5382A4AA1B40B2DD00C07EA9 /* PBXContainerItemProxy */;
+		};
+		5382A4BA1B40B2DD00C07EA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5382A4B61B40B2DD00C07EA9 /* iSensorDashboard WatchKit Extension */;
+			targetProxy = 5382A4B91B40B2DD00C07EA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5382A49D1B40B2DD00C07EA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5382A49E1B40B2DD00C07EA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5382A4A21B40B2DD00C07EA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5382A4A31B40B2DD00C07EA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5382A4AD1B40B2DD00C07EA9 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5382A4AE1B40B2DD00C07EA9 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5382A4C31B40B2DD00C07EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5382A4C41B40B2DD00C07EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5382A4C61B40B2DD00C07EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "iSensorDashboard WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nesl.ucla.ios.iSensorDashboard.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		5382A4C71B40B2DD00C07EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "iSensorDashboard WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nesl.ucla.ios.iSensorDashboard.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		5382A4CA1B40B2DD00C07EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = iSensorDashboard_WatchKit_Extension;
+				INFOPLIST_FILE = "iSensorDashboard WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nesl.ucla.ios.iSensorDashboard.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		5382A4CB1B40B2DD00C07EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = iSensorDashboard_WatchKit_Extension;
+				INFOPLIST_FILE = "iSensorDashboard WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nesl.ucla.ios.iSensorDashboard.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		5382A4CE1B40B2DD00C07EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iSensorDashboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nesl.ucla.ios.iSensorDashboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5382A4CF1B40B2DD00C07EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iSensorDashboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nesl.ucla.ios.iSensorDashboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5382A4911B40B2DD00C07EA9 /* Build configuration list for PBXProject "iSensorDashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5382A4C31B40B2DD00C07EA9 /* Debug */,
+				5382A4C41B40B2DD00C07EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5382A4C51B40B2DD00C07EA9 /* Build configuration list for PBXNativeTarget "iSensorDashboard WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5382A4C61B40B2DD00C07EA9 /* Debug */,
+				5382A4C71B40B2DD00C07EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5382A4C91B40B2DD00C07EA9 /* Build configuration list for PBXNativeTarget "iSensorDashboard WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5382A4CA1B40B2DD00C07EA9 /* Debug */,
+				5382A4CB1B40B2DD00C07EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5382A4CD1B40B2DD00C07EA9 /* Build configuration list for PBXNativeTarget "iSensorDashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5382A4CE1B40B2DD00C07EA9 /* Debug */,
+				5382A4CF1B40B2DD00C07EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5382A48E1B40B2DD00C07EA9 /* Project object */;
+}

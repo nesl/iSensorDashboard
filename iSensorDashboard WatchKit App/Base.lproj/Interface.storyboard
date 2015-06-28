@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8121.20" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8066.14"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="iSensorDashboard_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="yBs-Yn-EqV">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="Acc X" id="5kz-eY-IHQ">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                                <label alignment="right" verticalAlignment="center" text="Value" id="dUj-r8-kJ8">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="dZQ-Ag-fU4">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="Acc Y" id="rWT-bX-zJW">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                                <label alignment="right" verticalAlignment="center" text="Value" id="WcP-8w-ssh">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="2a8-0b-vxY">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="Acc Z" id="Nvo-hE-7IQ">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                                <label alignment="right" verticalAlignment="center" text="Value" id="gD4-vB-uDy">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="wiD-Oy-cby">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="Gyro X" id="2Zk-CJ-0IC">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                                <label alignment="right" verticalAlignment="center" text="Value" id="bjt-7E-Dde">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="sR0-vu-MtH">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="Gyro Y" id="O3l-eB-RqV">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                                <label alignment="right" verticalAlignment="center" text="Value" id="c1M-Pm-VdG">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="xK9-W1-QtF">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="Gyro Z" id="ONa-wZ-D1g">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                                <label alignment="right" verticalAlignment="center" text="Value" id="Tvf-n0-r88">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="nlQ-lf-3jy">
+                            <items>
+                                <button width="60" height="30" alignment="left" verticalAlignment="center" title="Start" id="UYy-5p-k6U">
+                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                    <connections>
+                                        <action selector="startSensor" destination="AgC-eL-Hgc" id="AlQ-sH-RU4"/>
+                                    </connections>
+                                </button>
+                                <button width="60" height="30" alignment="right" verticalAlignment="center" title="Stop" id="2Yc-Pf-vnh">
+                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                    <connections>
+                                        <action selector="stopSensor" destination="AgC-eL-Hgc" id="nnu-yu-rGe"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="labelAccX" destination="dUj-r8-kJ8" id="g7N-GQ-9pK"/>
+                        <outlet property="labelAccY" destination="WcP-8w-ssh" id="vEL-ad-y0I"/>
+                        <outlet property="labelAccZ" destination="gD4-vB-uDy" id="WiF-8N-L9x"/>
+                        <outlet property="labelGyroX" destination="bjt-7E-Dde" id="6AV-fI-fLV"/>
+                        <outlet property="labelGyroY" destination="c1M-Pm-VdG" id="fFq-Ir-OyV"/>
+                        <outlet property="labelGyroZ" destination="Tvf-n0-r88" id="8bc-FH-Kad"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
