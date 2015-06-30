@@ -40,7 +40,37 @@
                                 </label>
                             </items>
                         </group>
-                        <group width="1" alignment="left" id="wiD-Oy-cby">
+                        <group width="134" alignment="left" id="6jv-Qh-dXz">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="Acc Rate" id="cqA-Ot-4vI">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                                <label alignment="right" verticalAlignment="center" text="Value" id="U2k-Ic-ZAN">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="a0C-So-X4s">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="Acc TS" id="Eka-9u-DWQ">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                                <label alignment="right" verticalAlignment="center" text="Value" id="yim-6B-AIG">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" hidden="YES" id="muE-o3-ZOe">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="Heart Rate" id="CHf-VE-nF5">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                                <label alignment="right" verticalAlignment="center" text="Value" id="ibF-8d-hCi">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" hidden="YES" id="wiD-Oy-cby">
                             <items>
                                 <label alignment="left" verticalAlignment="center" text="Gyro X" id="2Zk-CJ-0IC">
                                     <fontDescription key="font" type="system" pointSize="13"/>
@@ -50,7 +80,7 @@
                                 </label>
                             </items>
                         </group>
-                        <group width="1" alignment="left" id="sR0-vu-MtH">
+                        <group width="1" alignment="left" hidden="YES" id="sR0-vu-MtH">
                             <items>
                                 <label alignment="left" verticalAlignment="center" text="Gyro Y" id="O3l-eB-RqV">
                                     <fontDescription key="font" type="system" pointSize="13"/>
@@ -60,7 +90,7 @@
                                 </label>
                             </items>
                         </group>
-                        <group width="1" alignment="left" id="xK9-W1-QtF">
+                        <group width="1" alignment="left" hidden="YES" id="xK9-W1-QtF">
                             <items>
                                 <label alignment="left" verticalAlignment="center" text="Gyro Z" id="ONa-wZ-D1g">
                                     <fontDescription key="font" type="system" pointSize="13"/>
@@ -70,7 +100,7 @@
                                 </label>
                             </items>
                         </group>
-                        <group width="1" alignment="left" id="nlQ-lf-3jy">
+                        <group width="1" alignment="center" id="nlQ-lf-3jy">
                             <items>
                                 <button width="60" height="30" alignment="left" verticalAlignment="center" title="Start" id="UYy-5p-k6U">
                                     <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
@@ -88,15 +118,19 @@
                         </group>
                     </items>
                     <connections>
+                        <outlet property="accRateLabel" destination="U2k-Ic-ZAN" id="LzB-9W-TBa"/>
+                        <outlet property="accTSLabel" destination="yim-6B-AIG" id="AUn-Pi-5d4"/>
                         <outlet property="labelAccX" destination="dUj-r8-kJ8" id="g7N-GQ-9pK"/>
                         <outlet property="labelAccY" destination="WcP-8w-ssh" id="vEL-ad-y0I"/>
                         <outlet property="labelAccZ" destination="gD4-vB-uDy" id="WiF-8N-L9x"/>
                         <outlet property="labelGyroX" destination="bjt-7E-Dde" id="6AV-fI-fLV"/>
                         <outlet property="labelGyroY" destination="c1M-Pm-VdG" id="fFq-Ir-OyV"/>
                         <outlet property="labelGyroZ" destination="Tvf-n0-r88" id="8bc-FH-Kad"/>
+                        <outlet property="labelHeartRate" destination="ibF-8d-hCi" id="7By-bi-llS"/>
                     </connections>
                 </controller>
             </objects>
+            <point key="canvasLocation" x="330" y="225.5"/>
         </scene>
     </scenes>
 </document>
